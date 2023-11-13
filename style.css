@@ -5,7 +5,7 @@
     border-radius: 50px;
     
     outline: 2px solid white;
-    outline-offset: -7px;
+    outline-offset: -.5em;
 
     /*box-shadow: 0 0 0 -5px white; ALTERNATIVE, instead of outline*/
 
@@ -19,7 +19,7 @@
     &:focus {
         background-color: rgb(248, 70, 204);
         
-        outline-offset: 4px;
+        outline-offset: .5em;
         outline-color: #333;
         
         
