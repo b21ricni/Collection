@@ -9,7 +9,7 @@
 
     /*box-shadow: 0 0 0 -5px white; ALTERNATIVE, instead of outline*/
 
-    transition: 450ms;
+    transition: 400ms;
 
     background-color: #d346f2;
     padding: 1em 1.5em;
@@ -19,7 +19,7 @@
     &:focus {
         background-color: rgb(248, 70, 204);
         
-        outline-offset: 5px;
+        outline-offset: 4px;
         outline-color: #333;
         
         
