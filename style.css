@@ -110,7 +110,7 @@
     border-radius: 50%;
 }
 
-#heartBeat{
+.heartBeat{
     animation: heartBeatAni 1s infinite linear;
     margin: 0px 25px 0px 25px;
 }
