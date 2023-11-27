@@ -99,6 +99,27 @@
     border-radius: 50%;
 }
 
+/*Heartbeat*/
+#heartBeat{
+    animation: heartBeatAni 1s infinite linear;
+}
+
+@keyframes heartBeatAni {
+    0% {
+        scale: 1.1;
+    }
+    35%{
+        scale: 1;
+        animation-timing-function: step-end;
+    }
+    40%{
+        scale: 1.15;
+    }
+    85% {
+        scale: 1;
+    }
+}
+
 /*=====================================================*/
 /*             END OF SHAPES AND ANIMATIONS            */
 /*=====================================================*/
