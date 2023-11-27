@@ -3,6 +3,7 @@
     width: 250px;
     background: gray;
     margin: 0px 10px 0px 10px;
+    display: grid;
 }
 
 .animations{
@@ -138,7 +139,15 @@
     inherits: false;
 }
 
-
+.spinner {
+    box-sizing: border-box;
+    place-self: center;
+    width: min(100%, 18em);
+    aspect-ratio: 1;
+    padding: 1.25em;
+    border-radius: 50%;
+    box-shadow: 2px 2px 17px #000;
+}
 
 /*=====================================================*/
 /*             END OF SHAPES AND ANIMATIONS            */
