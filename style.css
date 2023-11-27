@@ -147,16 +147,16 @@
     padding: 1.25em;
     border-radius: 50%;
     box-shadow: 2px 2px 17px #000;
-    background: url()
+    background: url(Turtle.jpg)
         50% / cover content-box,
         conic-gradient(
             in hsl longer hue from var(--a),
             hsl(0, 100%, 80%) 0 0
         );
-    animation: a 2s linear infinite;
+    animation: spinWheel 2s linear infinite;
 }
 
-@keyframes a {
+@keyframes spinWheel {
     to {
         --a: 1turn;
     }
