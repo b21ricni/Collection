@@ -1,3 +1,14 @@
+.grayBackground{
+    height: 250px;
+    width: 250px;
+    background: gray;
+    margin: 0px 10px 0px 10px;
+}
+
+.animations{
+    display: flex;
+}
+
 /*=====================================================*/
 /*                       BUTTONS                       */
 /*=====================================================*/
@@ -99,9 +110,9 @@
     border-radius: 50%;
 }
 
-/*Heartbeat*/
 #heartBeat{
     animation: heartBeatAni 1s infinite linear;
+    margin: 0px 25px 0px 25px;
 }
 
 @keyframes heartBeatAni {
@@ -119,6 +130,15 @@
         scale: 1;
     }
 }
+
+/*spinner*/
+@property --a {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+
 
 /*=====================================================*/
 /*             END OF SHAPES AND ANIMATIONS            */
